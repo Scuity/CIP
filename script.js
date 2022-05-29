@@ -1,10 +1,10 @@
 document.write("Hello, world!");
 
-function sayHello(){
-    var response = prompt("what's ur name?");
-    alert('hello,'+ response +'!have a nice day!');
+function playerName(){
+    var name = prompt("What's your name?");
+    alert("Hello"+ name + ",welcome to this puzzle game!");
 }
-sayHello();
+playerName();
 
 function add(a,b){
     return a + b;
